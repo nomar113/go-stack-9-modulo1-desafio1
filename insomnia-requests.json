@@ -1,0 +1,181 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2019-12-16T17:44:01.849Z",
+    "__export_source": "insomnia.desktop.app:v7.0.5",
+    "resources": [
+        {
+            "_id": "req_07a4c08ae52748439585c6ad1e405093",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"id\": \"3\",\n\t\"title\": \"Novo projeto 3\",\n\t\"tasks\": []\n}"
+            },
+            "created": 1576504637554,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_192cfcd62f504d6297593d8f24aa9180",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1576505052156,
+            "method": "POST",
+            "modified": 1576505657669,
+            "name": "Cadastra um novo projeto",
+            "parameters": [],
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3001/projects",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "created": 1576504569962,
+            "description": "",
+            "modified": 1576504569962,
+            "name": "Bootcamp - Desafio 1",
+            "parentId": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_6180f1d7544b432895b6611bf14fdf61",
+            "authentication": {},
+            "body": {},
+            "created": 1576504731443,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1576505052131,
+            "method": "GET",
+            "modified": 1576505094698,
+            "name": "Lista todos os projetos",
+            "parameters": [],
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3001/projects",
+            "_type": "request"
+        },
+        {
+            "_id": "req_f69f08eba0c54bae8c62f06e0b1f00aa",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"Novo nome projeto 2\"\n}"
+            },
+            "created": 1576504802141,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_69f8d3f3316d43cb90485153ddd52881",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1576505052118.5,
+            "method": "PUT",
+            "modified": 1576506318191,
+            "name": "Altera apenas título do projeto",
+            "parameters": [],
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3001/projects/0",
+            "_type": "request"
+        },
+        {
+            "_id": "req_18e41ffba60c4d1b9581d3bd89729a90",
+            "authentication": {},
+            "body": {},
+            "created": 1576504865280,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1576505052112.25,
+            "method": "DELETE",
+            "modified": 1576506541965,
+            "name": "Deleta projeto por id",
+            "parameters": [],
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3001/projects/0",
+            "_type": "request"
+        },
+        {
+            "_id": "req_175e71592c35435fb68c75440a929c5d",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"Nova tarefa 2\"\n}"
+            },
+            "created": 1576505052106,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_1d2ca9a722b544c9b7829a0797e3eedd",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1576505052106,
+            "method": "POST",
+            "modified": 1576518176780,
+            "name": "Adiciona tasks",
+            "parameters": [],
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingFollowRedirects": "global",
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://localhost:3001/projects/0/tasks",
+            "_type": "request"
+        },
+        {
+            "_id": "env_df76c375eb25186ac89f588939b55ba72fcc682a",
+            "color": null,
+            "created": 1576504570573,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1576504570573,
+            "modified": 1576504570573,
+            "name": "Base Environment",
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_df76c375eb25186ac89f588939b55ba72fcc682a",
+            "cookies": [],
+            "created": 1576504570579,
+            "modified": 1576504570579,
+            "name": "Default Jar",
+            "parentId": "wrk_5eebddc0c2d940fa808590590c4daea0",
+            "_type": "cookie_jar"
+        }
+    ]
+}
